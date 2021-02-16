@@ -1,10 +1,10 @@
 let w = 420;
-let h = 300;
+let h = 280;
 let capture;
 
 function setup() {
-  let c =   createCanvas(w, h);
-    c.parent("#sketch-parent");
+  let canvas = createCanvas(w, h);
+  canvas.parent("#sketch-parent");
   capture = createCapture(VIDEO);
   capture.size(w, h);
   capture.hide();
