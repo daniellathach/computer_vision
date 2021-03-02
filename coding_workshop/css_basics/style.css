@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#page-title {
+    text-decoration: underline;
+}
+
+.cool-text {
+    font-family:fantasy;
+}
+
+body {
+    background: pink;
+}
