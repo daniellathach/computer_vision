@@ -12,7 +12,7 @@ function preload() {
 
 function setup() {
   let c = createCanvas(640, 480);
-  c.parent("#sketch-partn");
+  c.parent("#sketch-parent");
   capture = createCapture(VIDEO);
   capture.hide();
   poseNet = ml5.poseNet(capture, modelLoaded);
